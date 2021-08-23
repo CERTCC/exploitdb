@@ -14,8 +14,8 @@ jobs:
           token: ${{secrets.VUL_DRILLER_TOKEN}}
       - name: config
         run: |
-          git config --global user.name 'ahouseholder'
-          git config --global user.email 'ahouseholder@users.noreply.github.com'
+          git config --global user.name 'certcc-ghbot'
+          git config --global user.email 'cert+ghbot@cert.org'
       - name: pull
         run: |
           # "git checkout master" is unnecessary, already here by default
